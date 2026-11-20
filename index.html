@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Puzzles Maniacs</title>
+<meta name="description" content="Puzzles Maniacs makes puzzle games for iPhone. Our first is Chorda, a number puzzle played with thread.">
+<link rel="canonical" href="https://puzzlesmaniacs.com/"><link rel="icon" href="favicon.png">
+<style>
+@font-face{font-family:Fredoka;font-weight:500;font-display:swap;src:url(fredoka-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Fredoka;font-weight:600;font-display:swap;src:url(fredoka-latin-600-normal.woff2) format("woff2")}
+*{box-sizing:border-box}
+html{background:#EFE6F4}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;font:500 18px/1.55 Fredoka,ui-rounded,"SF Pro Rounded",system-ui,sans-serif;color:#2B2740;background:linear-gradient(#FBF5EA,#EFE6F4) fixed}
+.wrap{width:100%;max-width:760px;margin:0 auto;padding:0 24px}
+main.wrap{flex:1;padding:12vh 24px 60px}
+h1{font-weight:600;font-size:clamp(40px,8vw,68px);line-height:1.02;letter-spacing:-.02em;margin:0 0 16px}
+.lead{font-size:21px;max-width:26em;margin:0 0 44px;opacity:.88}
+h2{font-weight:600;font-size:17px;margin:0 0 12px;opacity:.7}
+a{color:inherit;text-underline-offset:3px;text-decoration-thickness:2px;text-decoration-color:#B38DE0}
+a:focus-visible{outline:3px solid #2B2740;outline-offset:4px;border-radius:8px}
+.game{display:flex;align-items:center;gap:20px;padding:18px 22px 18px 18px;border-radius:28px;background:#FFFCF6;text-decoration:none;box-shadow:0 6px 0 #DCD0BA,0 18px 30px rgba(43,39,64,.12);transition:transform .12s,box-shadow .12s;max-width:520px}
+.game:hover{transform:translateY(-2px);box-shadow:0 8px 0 #DCD0BA,0 22px 34px rgba(43,39,64,.14)}
+.game:active{transform:translateY(4px);box-shadow:0 2px 0 #DCD0BA,0 8px 14px rgba(43,39,64,.12)}
+.game img{width:84px;height:84px;border-radius:20px;flex:none;display:block}
+.game strong{display:block;font-weight:600;font-size:26px;line-height:1.15}
+.game span{display:block;font-size:16.5px;opacity:.8;line-height:1.35}
+footer.wrap{padding:22px 24px 40px;font-size:16px;display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between;border-top:2px dashed #DCD0BA}
+footer span{opacity:.75}
+@media (prefers-reduced-motion:reduce){.game{transition:none}}
+</style></head>
+<body>
+<main class="wrap">
+  <h1>Puzzles Maniacs</h1>
+  <p class="lead">We make puzzle games for iPhone: small boards, clear rules, and one idea you have not played before.</p>
+  <h2>Our first game</h2>
+  <a class="game" href="chorda.html"><img src="icon.png" width="360" height="360" alt="">
+    <div><strong>Chorda</strong><span>Thread the numbers so every colour adds up and the equation comes out true. Coming soon to the App Store.</span></div></a>
+</main>
+<footer class="wrap"><span>© 2026 Puzzles Maniacs</span><span><a href="mailto:support@puzzlesmaniacs.com">support@puzzlesmaniacs.com</a></span></footer>
+</body></html>
